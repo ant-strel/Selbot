@@ -56,7 +56,7 @@ namespace Selbot
 
         private void button3_Click(object sender, EventArgs e)//Открыть диалог с ботом
         {
-            Browser.Navigate().GoToUrl("https://vk.com/im?sel=-201127607");     //ссылка на диалог с ботом
+            Browser.Navigate().GoToUrl("https://vk.com/im?sel=-000000000000");     //ссылка на диалог с ботом
             
 
         }
