@@ -51,25 +51,13 @@ namespace Selbot
             Thread.Sleep(GetRandom(200, 1000));
             IWebElement buttoninput = Browser.FindElement(By.Id("index_login_button"));
             buttoninput.Click();
-            //Thread.Sleep(GetRandom(1500, 3000));
-            //Browser.Navigate().GoToUrl("https://vk.com/im?sel=-201127607");
-            //IWebElement SearchInput = Browser.FindElement(By.Name("q"));
-            //SearchInput.SendKeys("Как вырастить гомункула" + OpenQA.Selenium.Keys.Enter);
+
         }
 
         private void button3_Click(object sender, EventArgs e)//Открыть диалог с ботом
         {
-            Browser.Navigate().GoToUrl("https://vk.com/im?sel=-201127607");
-            //element = Browser.FindElement(By.Id("text"));
-            //element = Browser.FindElement(By.ClassName("im-send-btn im-chat-input--send _im_send im-send-btn_send");
-            //element = Browser.FindElement(By.LinkText("text"));
-            //element = Browser.FindElement(By.PartialLinkText("text"));
-            //element = Browser.FindElement(By.CssSelector("text"));
-            //element.SendKeys("тест");
-
-            //element.Click();
-
-            //
+            Browser.Navigate().GoToUrl("https://vk.com/im?sel=-201127607");     //ссылка на диалог с ботом
+            
 
         }
 
